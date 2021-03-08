@@ -1,0 +1,325 @@
+﻿attribute,information_level,type,missing_or_unknown
+AGER_TYP,person,categorical,"[-1,0]"
+ALTERSKATEGORIE_GROB,person,ordinal,"[-1,0,9]"
+ANREDE_KZ,person,categorical,"[-1,0]"
+CJT_GESAMTTYP,person,categorical,[0]
+FINANZ_MINIMALIST,person,ordinal,[-1]
+FINANZ_SPARER,person,ordinal,[-1]
+FINANZ_VORSORGER,person,ordinal,[-1]
+FINANZ_ANLEGER,person,ordinal,[-1]
+FINANZ_UNAUFFAELLIGER,person,ordinal,[-1]
+FINANZ_HAUSBAUER,person,ordinal,[-1]
+FINANZTYP,person,categorical,[-1]
+GEBURTSJAHR,person,numeric,[0]
+GFK_URLAUBERTYP,person,categorical,[]
+GREEN_AVANTGARDE,person,categorical,[]
+HEALTH_TYP,person,ordinal,"[-1,0]"
+LP_LEBENSPHASE_FEIN,person,mixed,[0]
+LP_LEBENSPHASE_GROB,person,mixed,[0]
+LP_FAMILIE_FEIN,person,categorical,[0]
+LP_FAMILIE_GROB,person,categorical,[0]
+LP_STATUS_FEIN,person,categorical,[0]
+LP_STATUS_GROB,person,categorical,[0]
+NATIONALITAET_KZ,person,categorical,"[-1,0]"
+PRAEGENDE_JUGENDJAHRE,person,mixed,"[-1,0]"
+RETOURTYP_BK_S,person,ordinal,[0]
+SEMIO_SOZ,person,ordinal,"[-1,9]"
+SEMIO_FAM,person,ordinal,"[-1,9]"
+SEMIO_REL,person,ordinal,"[-1,9]"
+SEMIO_MAT,person,ordinal,"[-1,9]"
+SEMIO_VERT,person,ordinal,"[-1,9]"
+SEMIO_LUST,person,ordinal,"[-1,9]"
+SEMIO_ERL,person,ordinal,"[-1,9]"
+SEMIO_KULT,person,ordinal,"[-1,9]"
+SEMIO_RAT,person,ordinal,"[-1,9]"
+SEMIO_KRIT,person,ordinal,"[-1,9]"
+SEMIO_DOM,person,ordinal,"[-1,9]"
+SEMIO_KAEM,person,ordinal,"[-1,9]"
+SEMIO_PFLICHT,person,ordinal,"[-1,9]"
+SEMIO_TRADV,person,ordinal,"[-1,9]"
+SHOPPER_TYP,person,categorical,[-1]
+SOHO_KZ,person,categorical,[-1]
+TITEL_KZ,person,categorical,"[-1,0]"
+VERS_TYP,person,categorical,[-1]
+ZABEOTYP,person,categorical,"[-1,9]"
+ALTER_HH,household,interval,[0]
+ANZ_PERSONEN,household,numeric,[]
+ANZ_TITEL,household,numeric,[]
+HAUSHALTSSTRUKTUR,household,ordinal,"[-1,0]"
+HH_EINKOMMEN_SCORE,household,ordinal,"[-1,0]"
+KK_KUNDENTYP,household,categorical,[-1]
+D19_KONSUMTYP,household,categorical,[]
+D19_GESAMT_ANZ_12,household,categorical,[]
+D19_GESAMT_ANZ_24,household,categorical,[]
+D19_BANKEN_ANZ_12,household,categorical,[]
+D19_BANKEN_ANZ_24,household,categorical,[]
+D19_TELKO_ ANZ_12,household,categorical,[]
+D19_TELKO_ ANZ_24,household,categorical,[]
+D19_VERSI_ ANZ_12 ,household,categorical,[]
+D19_VERSI_ ANZ_24,household,categorical,[]
+D19_VERSAND_ ANZ_12 ,household,categorical,[]
+D19_VERSAND_ ANZ_24,household,categorical,[]
+D19_GESAMT_OFFLINE_DATUM,household,categorical,[]
+D19_GESAMT_ONLINE_DATUM,household,categorical,[]
+D19_GESAMT_DATUM,household,categorical,[]
+D19_BANKEN_OFFLINE_DATUM,household,categorical,[]
+D19_BANKEN_ONLINE_DATUM,household,categorical,[]
+D19_BANKEN_DATUM,household,categorical,[]
+D19_TELKO_OFFLINE_DATUM,household,categorical,[]
+D19_TELKO_ONLINE_DATUM,household,categorical,[]
+D19_TELKO_DATUM,household,categorical,[]
+D19_VERSAND_OFFLINE_DATUM,household,categorical,[]
+D19_VERSAND_ONLINE_DATUM,household,categorical,[]
+D19_VERSAND_DATUM,household,categorical,[]
+D19_VERSI_OFFLINE_DATUM,household,categorical,[]
+D19_VERSI_ONLINE_DATUM,household,categorical,[]
+D19_VERSI_DATUM,household,categorical,[]
+D19_GESAMT_ONLINE_QUOTE_12,household,categorical,[]
+D19_BANKEN_ONLINE_QUOTE_12,household,categorical,[]
+D19_VERSAND_ONLINE_QUOTE_12,household,categorical,[]
+W_KEIT_KIND_HH,household,ordinal,"[-1,0]"
+WOHNDAUER_2008,household,ordinal,"[-1,0]"
+ANZ_HAUSHALTE_AKTIV,building,numeric,[0]
+ANZ_HH_TITEL,building,numeric,[]
+GEBAEUDETYP,building,categorical,"[-1,0]"
+GEOSCORE_KLS7,building,numeric,[]
+KBA05_HERSTTEMP,building,ordinal,"[-1, 9]"
+KBA05_MODTEMP,building,ordinal,"[-1, 9]"
+KONSUMNAEHE,building,ordinal,[]
+MIN_GEBAEUDEJAHR,building,numeric,[0]
+OST_WEST_KZ,building,categorical,[-1]
+WOHNLAGE,building,mixed,[-1]
+CAMEO_DEUG_2015,microcell_rr4,categorical,"[-1,X]"
+CAMEO_DEU_2015,microcell_rr4,categorical,[XX]
+CAMEO_INTL_2015,microcell_rr4,mixed,"[-1,XX]"
+KBA05_ALTER1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ALTER2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ALTER3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ALTER4,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ANHANG,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ANTG1,microcell_rr3,ordinal,[-1]
+KBA05_ANTG2,microcell_rr3,ordinal,[-1]
+KBA05_ANTG3,microcell_rr3,ordinal,[-1]
+KBA05_ANTG4,microcell_rr3,ordinal,[-1]
+KBA05_AUTOQUOT,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_BAUMAX,microcell_rr3,mixed,"[-1,0]"
+KBA05_CCM1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_CCM2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_CCM3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_CCM4,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_DIESEL,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_FRAU,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_GBZ,microcell_rr3,ordinal,"[-1,0]"
+KBA05_HERST1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_HERST2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_HERST3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_HERST4,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_HERST5,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSAQUOT,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSHERST1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSHERST2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSHERST3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSKLEIN,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSOBER,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSVAN,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KRSZUL,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KW1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KW2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_KW3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MAXAH,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MAXBJ,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MAXHERST,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MAXSEG,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MAXVORB,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOD1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOD2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOD3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOD4,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOD8,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOTOR,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_MOTRAD,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG4,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG5,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG6,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG7,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG8,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG9,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_SEG10,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_VORB0,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_VORB1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_VORB2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ZUL1,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ZUL2,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ZUL3,microcell_rr3,ordinal,"[-1, 9]"
+KBA05_ZUL4,microcell_rr3,ordinal,"[-1, 9]"
+WACHSTUMSGEBIET_NB,microcell_rr3,ordinal,"[-1, 0]"
+D19_BANKEN_DIREKT,125m_125m_grid,ordinal,[]
+D19_BANKEN_GROSS,125m_125m_grid,ordinal,[]
+D19_BANKEN_LOKAL,125m_125m_grid,ordinal,[]
+D19_BANKEN_REST,125m_125m_grid,ordinal,[]
+D19_BEKLEIDUNG_GEH,125m_125m_grid,ordinal,[]
+D19_BEKLEIDUNG_REST,125m_125m_grid,ordinal,[]
+D19_BIO_OEKO,125m_125m_grid,ordinal,[]
+D19_BILDUNG,125m_125m_grid,ordinal,[]
+D19_BUCH_CD,125m_125m_grid,ordinal,[]
+D19_DIGIT_SERV,125m_125m_grid,ordinal,[]
+D19_DROGERIEARTIKEL,125m_125m_grid,ordinal,[]
+D19_ENERGIE,125m_125m_grid,ordinal,[]
+D19_FREIZEIT,125m_125m_grid,ordinal,[]
+D19_GARTEN,125m_125m_grid,ordinal,[]
+D19_HANDWERK,125m_125m_grid,ordinal,[]
+D19_HAUS_DEKO,125m_125m_grid,ordinal,[]
+D19_KINDERARTIKEL,125m_125m_grid,ordinal,[]
+D19_KOSMETIK,125m_125m_grid,ordinal,[]
+D19_LEBENSMITTEL,125m_125m_grid,ordinal,[]
+D19_LOTTO,125m_125m_grid,ordinal,[]
+D19_NAHRUNGSERGAENZUNG,125m_125m_grid,ordinal,[]
+D19_RATGEBER,125m_125m_grid,ordinal,[]
+D19_REISEN,125m_125m_grid,ordinal,[]
+D19_SAMMELARTIKEL,125m_125m_grid,ordinal,[]
+D19_SCHUHE,125m_125m_grid,ordinal,[]
+D19_SONSTIGE,125m_125m_grid,ordinal,[]
+D19_TECHNIK,125m_125m_grid,ordinal,[]
+D19_TELKO_ANZ_12,125m_125m_grid,ordinal,[]
+D19_TELKO_ANZ_24,125m_125m_grid,ordinal,[]
+D19_TELKO_MOBILE,125m_125m_grid,ordinal,[]
+D19_TELKO_REST,125m_125m_grid,ordinal,[]
+D19_TIERARTIKEL,125m_125m_grid,ordinal,[]
+D19_VERSAND_ANZ_12,125m_125m_grid,ordinal,[]
+D19_VERSAND_ANZ_24,125m_125m_grid,ordinal,[]
+D19_VERSICHERUNGEN,125m_125m_grid,ordinal,[]
+D19_VERSAND_REST,125m_125m_grid,ordinal,[]
+D19_VERSI_ANZ_12,125m_125m_grid,ordinal,[]
+D19_VERSI_ANZ_24,125m_125m_grid,ordinal,[]
+D19_VOLLSORTIMENT,125m_125m_grid,ordinal,[]
+D19_WEIN_FEINKOST,125m_125m_grid,ordinal,[]
+BALLRAUM,postcode,ordinal,[-1]
+EWDICHTE,postcode,ordinal,[-1]
+INNENSTADT,postcode,ordinal,[-1]
+PLZ,postcode,ordinal,[-1]
+GEBAEUDETYP_RASTER,region_rr1,ordinal,[]
+KKK,region_rr1,ordinal,"[-1,0]"
+MOBI_REGIO,region_rr1,ordinal,[]
+ONLINE_AFFINITAET,region_rr1,ordinal,[]
+REGIOTYP,region_rr1,ordinal,"[-1,0]"
+KBA13_ALTERHALTER_30,plz8,ordinal,[-1]
+KBA13_ALTERHALTER_45,plz8,ordinal,[-1]
+KBA13_ALTERHALTER_60,plz8,ordinal,[-1]
+KBA13_ALTERHALTER_61,plz8,ordinal,[-1]
+KBA13_ANZAHL_PKW,plz8,numeric,[]
+KBA13_AUDI,plz8,ordinal,[-1]
+KBA13_AUTOQUOTE,plz8,ordinal,[-1]
+KBA13_BJ_1999,plz8,ordinal,[-1]
+KBA13_BJ_2000,plz8,ordinal,[-1]
+KBA13_BJ_2004,plz8,ordinal,[-1]
+KBA13_BJ_2006,plz8,ordinal,[-1]
+KBA13_BJ_2008,plz8,ordinal,[-1]
+KBA13_BJ_2009,plz8,ordinal,[-1]
+KBA13_BMW,plz8,ordinal,[-1]
+KBA13_CCM_1000,plz8,ordinal,[-1]
+KBA13_CCM_1200,plz8,ordinal,[-1]
+KBA13_CCM_1400,plz8,ordinal,[-1]
+KBA13_CCM_0_1400,plz8,ordinal,[-1]
+KBA13_CCM_1500,plz8,ordinal,[-1]
+KBA13_CCM_1400_2500,plz8,ordinal,[-1]
+KBA13_CCM_1600,plz8,ordinal,[-1]
+KBA13_CCM_1800,plz8,ordinal,[-1]
+KBA13_CCM_2000,plz8,ordinal,[-1]
+KBA13_CCM_2500,plz8,ordinal,[-1]
+KBA13_CCM_2501,plz8,ordinal,[-1]
+KBA13_CCM_3000,plz8,ordinal,[-1]
+KBA13_CCM_3001,plz8,ordinal,[-1]
+KBA13_FAB_ASIEN,plz8,ordinal,[-1]
+KBA13_FAB_SONSTIGE,plz8,ordinal,[-1]
+KBA13_FIAT,plz8,ordinal,[-1]
+KBA13_FORD,plz8,ordinal,[-1]
+KBA13_HALTER_20,plz8,ordinal,[-1]
+KBA13_HALTER_25,plz8,ordinal,[-1]
+KBA13_HALTER_30,plz8,ordinal,[-1]
+KBA13_HALTER_35,plz8,ordinal,[-1]
+KBA13_HALTER_40,plz8,ordinal,[-1]
+KBA13_HALTER_45,plz8,ordinal,[-1]
+KBA13_HALTER_50,plz8,ordinal,[-1]
+KBA13_HALTER_55,plz8,ordinal,[-1]
+KBA13_HALTER_60,plz8,ordinal,[-1]
+KBA13_HALTER_65,plz8,ordinal,[-1]
+KBA13_HALTER_66,plz8,ordinal,[-1]
+KBA13_HERST_ASIEN,plz8,ordinal,[-1]
+KBA13_HERST_AUDI_VW,plz8,ordinal,[-1]
+KBA13_HERST_BMW_BENZ,plz8,ordinal,[-1]
+KBA13_HERST_EUROPA,plz8,ordinal,[-1]
+KBA13_HERST_FORD_OPEL,plz8,ordinal,[-1]
+KBA13_HERST_SONST,plz8,ordinal,[-1]
+KBA13_KMH_110,plz8,ordinal,[-1]
+KBA13_KMH_140,plz8,ordinal,[-1]
+KBA13_KMH_180,plz8,ordinal,[-1]
+KBA13_KMH_0_140,plz8,ordinal,[-1]
+KBA13_KMH_140_210,plz8,ordinal,[-1]
+KBA13_KMH_211,plz8,ordinal,[-1]
+KBA13_KMH_250,plz8,ordinal,[-1]
+KBA13_KMH_251,plz8,ordinal,[-1]
+KBA13_KRSAQUOT,plz8,ordinal,[-1]
+KBA13_KRSHERST_AUDI_VW,plz8,ordinal,[-1]
+KBA13_KRSHERST_BMW_BENZ,plz8,ordinal,[-1]
+KBA13_KRSHERST_FORD_OPEL,plz8,ordinal,[-1]
+KBA13_KRSSEG_KLEIN,plz8,ordinal,[-1]
+KBA13_KRSSEG_OBER,plz8,ordinal,[-1]
+KBA13_KRSSEG_VAN,plz8,ordinal,[-1]
+KBA13_KRSZUL_NEU,plz8,ordinal,[-1]
+KBA13_KW_30,plz8,ordinal,[-1]
+KBA13_KW_40,plz8,ordinal,[-1]
+KBA13_KW_50,plz8,ordinal,[-1]
+KBA13_KW_60,plz8,ordinal,[-1]
+KBA13_KW_0_60,plz8,ordinal,[-1]
+KBA13_KW_70,plz8,ordinal,[-1]
+KBA13_KW_61_120,plz8,ordinal,[-1]
+KBA13_KW_80,plz8,ordinal,[-1]
+KBA13_KW_90,plz8,ordinal,[-1]
+KBA13_KW_110,plz8,ordinal,[-1]
+KBA13_KW_120,plz8,ordinal,[-1]
+KBA13_KW_121,plz8,ordinal,[-1]
+KBA13_MAZDA,plz8,ordinal,[-1]
+KBA13_MERCEDES,plz8,ordinal,[-1]
+KBA13_MOTOR,plz8,ordinal,[-1]
+KBA13_NISSAN,plz8,ordinal,[-1]
+KBA13_OPEL,plz8,ordinal,[-1]
+KBA13_PEUGEOT,plz8,ordinal,[-1]
+KBA13_RENAULT,plz8,ordinal,[-1]
+KBA13_SEG_GELAENDEWAGEN,plz8,ordinal,[-1]
+KBA13_SEG_GROSSRAUMVANS,plz8,ordinal,[-1]
+KBA13_SEG_KLEINST,plz8,ordinal,[-1]
+KBA13_SEG_KLEINWAGEN,plz8,ordinal,[-1]
+KBA13_SEG_KOMPAKTKLASSE,plz8,ordinal,[-1]
+KBA13_SEG_MINIVANS,plz8,ordinal,[-1]
+KBA13_SEG_MINIWAGEN,plz8,ordinal,[-1]
+KBA13_SEG_MITTELKLASSE,plz8,ordinal,[-1]
+KBA13_SEG_OBEREMITTELKLASSE,plz8,ordinal,[-1]
+KBA13_SEG_OBERKLASSE,plz8,ordinal,[-1]
+KBA13_SEG_SONSTIGE,plz8,ordinal,[-1]
+KBA13_SEG_SPORTWAGEN,plz8,ordinal,[-1]
+KBA13_SEG_UTILITIES,plz8,ordinal,[-1]
+KBA13_SEG_VAN,plz8,ordinal,[-1]
+KBA13_SEG_WOHNMOBILE,plz8,ordinal,[-1]
+KBA13_SITZE_4,plz8,ordinal,[-1]
+KBA13_SITZE_5,plz8,ordinal,[-1]
+KBA13_SITZE_6,plz8,ordinal,[-1]
+KBA13_TOYOTA,plz8,ordinal,[-1]
+KBA13_VORB_0,plz8,ordinal,[-1]
+KBA13_VORB_1,plz8,ordinal,[-1]
+KBA13_VORB_1_2,plz8,ordinal,[-1]
+KBA13_VORB_2,plz8,ordinal,[-1]
+KBA13_VORB_3,plz8,ordinal,[-1]
+KBA13_VW,plz8,ordinal,[-1]
+PLZ8_ANTG1,plz8,ordinal,[-1]
+PLZ8_ANTG2,plz8,ordinal,[-1]
+PLZ8_ANTG3,plz8,ordinal,[-1]
+PLZ8_ANTG4,plz8,ordinal,[-1]
+PLZ8_BAUMAX,plz8,mixed,"[-1,0]"
+PLZ8_HHZ,plz8,ordinal,[-1]
+PLZ8_GBZ,plz8,ordinal,[-1]
+ARBEIT,community,ordinal,"[-1,9]"
+ORTSGR_KLS9,community,ordinal,"[-1,0]"
+RELAT_AB,community,ordinal,"[-1,9]"
