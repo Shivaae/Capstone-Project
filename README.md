@@ -32,18 +32,18 @@ d.Data Visualization: Matplotlib, Seaborn<br><br>
 ## File Descriptions<br>
 There are four data files associated with this project:<br><br><br>
 
-Udacity_AZDIAS_052018.csv: Demographics data for the general population of Germany; 891 211 persons (rows) x 366 features (columns).<br><br>
-Udacity_CUSTOMERS_052018.csv: Demographics data for customers of a mail-order company; 191 652 persons (rows) x 369 features (columns).<br>
-Udacity_MAILOUT_052018_TRAIN.csv: Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).<br>
-Udacity_MAILOUT_052018_TEST.csv: Demographics data for individuals who were targets of a marketing campaign; 42 833 persons (rows) x 366 (columns).<br>
+A.Udacity_AZDIAS_052018.csv: Demographics data for the general population of Germany; 891 211 persons (rows) x 366 features (columns).<br><br>
+B.Udacity_CUSTOMERS_052018.csv: Demographics data for customers of a mail-order company; 191 652 persons (rows) x 369 features (columns).<br>
+C.Udacity_MAILOUT_052018_TRAIN.csv: Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).<br>
+D.Udacity_MAILOUT_052018_TEST.csv: Demographics data for individuals who were targets of a marketing campaign; 42 833 persons (rows) x 366 (columns).<br>
 
 Each row of the demographics files represents a single person, but also includes information outside of individuals, including information about their household, building, and neighborhood. Use the information from the first two files to figure out how customers ("CUSTOMERS") are similar to or differ from the general population at large ("AZDIAS"), then use your analysis to make predictions on the other two files ("MAILOUT"), predicting which recipients are most likely to become a customer for the mail-order company. The "CUSTOMERS" file contains three extra columns ('CUSTOMER_GROUP', 'ONLINE_PURCHASE', and 'PRODUCT_GROUP'), which provide broad information about the customers depicted in the file. The original "MAILOUT" file included one additional column, "RESPONSE", which indicated whether or not each recipient became a customer of the company. For the "TRAIN" subset, this column has been retained, but in the "TEST" subset it has been removed; it is against that withheld column that your final predictions will be assessed in the Kaggle competition. Otherwise, all of the remaining columns are the same between the three data files.<br>
 
 For more information about the columns depicted in the files above, one can refer to two additional meta-data files(.xlsx) provided and one manually created file(.csv). <br>
 
-DIAS Information Levels - Attributes 2017.xlsx: is a top-level list of attributes and descriptions, organized by informational category. <br>
-DIAS Attributes - Values 2017.xlsx: is a detailed mapping of data values for each feature in alphabetical order.<br>
-feature_summary_complete.csv: is a feature summary file and is created manually using the above 2 files mapping all the attributes with information level, type & missing_or_unknown information to assist in our analysis.<br>
+a.DIAS Information Levels - Attributes 2017.xlsx: is a top-level list of attributes and descriptions, organized by informational category. <br>
+b.DIAS Attributes - Values 2017.xlsx: is a detailed mapping of data values for each feature in alphabetical order.<br>
+c.feature_complete.csv: is a feature summary file and is created manually using the above 2 files mapping all the attributes with information level, type & missing_or_unknown information to assist in our analysis.<br>
 
 ## Instructions <br>
 
