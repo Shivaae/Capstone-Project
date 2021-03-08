@@ -61,10 +61,7 @@ c.Part 2 presented the straightforward way of building a supervised learning mod
 
 d.Part 3 presented the Kaggle in-class competition and kaggle_submission_file.csv was submitted to obtain a kaggle score which is roc_auc score on the testing data. Through Kaggle score, position of the participant in the leaderboard was determined. <br>
 
-## Notes on Class Imbalance <br>
-a.Since there is a large output class imbalance, predicting individual classes and using accuracy does not seem to be an appropriate performance evaluation method. Instead, the model will be using ROC-AUC to evaluate performance. <br>
 
-b.Aside from the Kaggle competition using ROC-AUC as the score, the metric is suitable for binary classification problems such as this. ROC curves give us the ability to assess the performance of the classifier over its entire operating range. The most widely-used measure is the area under the curve (AUC). The AUC can be used to compare the performance of two or more classifiers. A single threshold can be selected and the classifiers' performance at that point compared, or the overall performance can be compared by considering the AUC". Compared to the F1 score, the ROC does not require optimizing a threshold for each label. <br>
 
 ## Acknowledgements <br>
 This project was completed as part of the Udacity Data Scientist Nanodegree. The data was originally sourced by Udacity from Arvato Financial Solutions, a Bertelsmann subsidiary. <br>
