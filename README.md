@@ -7,8 +7,7 @@
 4.File Descriptions<br>
 5.Instructions<br>
 6.Results<br>
-7.Notes on Class Imbalance<br>
-8.Acknowledgements<br>
+7.Acknowledgements<br>
 
 ## Project Overview<br>
 In this project, I had analyzed demographics data for customers of a mail-order sales company in Germany, compared it against demographics information for the general population. I had used unsupervised learning techniques to perform customer segmentation, identifying the parts of the population that best describe the core customer base of the company. Then, I had applied what I've learned on a third dataset with demographics information for targets of a marketing campaign for the company, and used a trained model to predict which individuals are most likely to convert into becoming customers for the company. The data used has been provided by our partners at Bertelsmann Arvato Analytics, and represents a real-life data science task. <br>
