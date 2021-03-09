@@ -66,5 +66,6 @@ d.Part 3 presented the Kaggle in-class competition and kaggle_submission_file.cs
 ## Acknowledgements <br>
 This project was completed as part of the Udacity Data Scientist Nanodegree. The data was originally sourced by Udacity from Arvato Financial Solutions, a Bertelsmann subsidiary. <br>
 
-Github Link - https://github.com/Shivaae/Capstone-Project
+Github Link - https://github.com/Shivaae/Capstone-Project  <br>
+Medium Link - https://shivaae.medium.com/creating-a-customer-segmentation-report-for-arvato-financial-solutions-7c95944a768a
 
